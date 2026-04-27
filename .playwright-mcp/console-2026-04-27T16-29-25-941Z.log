@@ -1,0 +1,241 @@
+[   59692ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   59959ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:24868
+[   60074ms] Error: Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at getNotFoundError (file://C:\Users\adachina\Videos\Proyectos\Git\ClaudeCourse\uigen\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\parseNotFoundError.js:140:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async getModuleBuildError (file://C:\Users\adachina\Videos\Proyectos\Git\ClaudeCourse\uigen\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\webpackModuleError.js:103:27)
+    at async (file://C:\Users\adachina\Videos\Proyectos\Git\ClaudeCourse\uigen\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\index.js:29:49)
+    at async (file://C:\Users\adachina\Videos\Proyectos\Git\ClaudeCourse\uigen\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\index.js:27:21)
+[   60073ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[   60075ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   60080ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   60106ms] [LOG] {file: Object} @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/compiled/next-devtools/index.js:1630
+[   60281ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   60288ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   60391ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:197
+[   60878ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[   60977ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[  109799ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[  109800ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:197
+[  110127ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[  118090ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  118207ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(pages-dir-browser)/./node_modules/react-dom/cjs/react-dom-client.development.js:24868
+[  118219ms] Error: Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at getNotFoundError (file://C:\Users\adachina\Videos\Proyectos\Git\ClaudeCourse\uigen\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\parseNotFoundError.js:140:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async getModuleBuildError (file://C:\Users\adachina\Videos\Proyectos\Git\ClaudeCourse\uigen\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\webpackModuleError.js:103:27)
+    at async (file://C:\Users\adachina\Videos\Proyectos\Git\ClaudeCourse\uigen\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\index.js:29:49)
+    at async (file://C:\Users\adachina\Videos\Proyectos\Git\ClaudeCourse\uigen\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\index.js:27:21)
+[  118221ms] [LOG] [HMR] connected @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/websocket.js:45
+[  118224ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[  118236ms] [LOG] {file: Object} @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/compiled/next-devtools/index.js:1630
+[  146208ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[  146208ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:197
+[  146425ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[  154558ms] [ERROR] ./src/lib/contexts/chat-context.tsx:9:1
+Module not found: Can't resolve '@ai-sdk/react'
+   7 |   useEffect,
+   8 | } from "react";
+>  9 | import { useChat as useAIChat } from "@ai-sdk/react";
+     | ^
+  10 | import { Message } from "ai";
+  11 | import { useFileSystem } from "./file-system-context";
+  12 | import { setHasAnonWork } from "@/lib/anon-work-tracker";
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/app/main-content.tsx @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/next-devtools/userspace/pages/pages-dev-overlay-setup.js:76
+[  154558ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:197
+[  156418ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/ed5decc5688be47b.webpack.hot-update.json:0
+[  156419ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/dev/hot-reloader/pages/hot-reloader-pages.js:338
+[  158644ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  159203ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  159925ms] TypeError: Cannot read properties of undefined (reading 'trim')
+    at MessageInput (webpack-internal:///(app-pages-browser)/./src/components/chat/MessageInput.tsx:41:51)
+    at Object.react_stack_bottom_frame (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:23584:20)
+    at renderWithHooks (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:6793:22)
+    at updateFunctionComponent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:9247:19)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:10858:18)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22)
+    at workLoopSync (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15547:41)
+    at renderRootSync (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15527:11)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15034:44)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+[  163034ms] [WARNING] The resource http://localhost:3000/_next/static/css/app/layout.css?v=1777307522684 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[  163792ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:183
+[  164033ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/dev/hot-reloader/app/hot-reloader-app.js:113
+[  164099ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  164256ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:25630
+[  164687ms] TypeError: Cannot read properties of undefined (reading 'trim')
+    at MessageInput (webpack-internal:///(app-pages-browser)/./src/components/chat/MessageInput.tsx:41:51)
+    at Object.react_stack_bottom_frame (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:23584:20)
+    at renderWithHooks (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:6793:22)
+    at updateFunctionComponent (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:9247:19)
+    at beginWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:10858:18)
+    at runWithFiberInDEV (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:872:30)
+    at performUnitOfWork (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15727:22)
+    at workLoopSync (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15547:41)
+    at renderRootSync (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15527:11)
+    at performWorkOnRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:15034:44)
+    at performWorkOnRootViaSchedulerTask (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:16816:7)
+    at MessagePort.performWorkUntilDeadline (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/scheduler/cjs/scheduler.development.js:45:48)
+[  167716ms] [WARNING] The resource http://localhost:3000/_next/static/css/app/layout.css?v=1777307529993 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
