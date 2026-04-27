@@ -21,9 +21,9 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read
-      pull-requests: read
-      issues: read
+      contents: write
+      pull-requests: write
+      issues: write
       id-token: write
 
     steps:
@@ -36,14 +36,9 @@ jobs:
           npm run setup || true
           npm run dev:daemon || true
 
-      - name: Proyect setup
-        run: |
-          npm run setup
-          npm run dev:deamon
-
       - name: Run Claude Code
         id: claude
-        uses: anthropics/claude-code-action@beta
+        uses: anthropic/claude-code-action@beta
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           custom_instructions: |
